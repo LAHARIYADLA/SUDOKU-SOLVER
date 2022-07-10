@@ -10,7 +10,7 @@ grid to be restored. The purpose of implementing the aforementioned techniques i
 reduce the search space required for guessing, allowing the solution to be found in fewer clock cycles
 and requiring less memory to store previous guesses for the typical Sudoku. The FPGA that will be
 used is that on the Digilent Nexys 4 development board.
-The system will be evaluated by a testbench containing a set of multiple randomly generated Sudoku for each difficulty level. Each Sudoku will be generated using the QQWing Sudoku generator
+The system will be evaluated by a testbench containing a set of multiple randomly generated Sudoku for each difficulty level. Each Sudoku will be generated using the QQWing Sudoku generator
 (https://qqwing.com/generate.html) as it provides not only the Sudoku itself but a list of the required
 algorithms used to solve the Sudoku and the number of required guesses. The testbench will also
 include the "World’s Hardest Sudoku" (Arto Inkala, 2010) which is one of the approximately, 50,000
